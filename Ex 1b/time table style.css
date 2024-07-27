@@ -1,0 +1,32 @@
+header,.tt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th,td{
+    border: 2px solid black;
+    padding: 40px;
+}
+
+td{
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+
+td:hover{
+    transform:scale(1.1);
+}
+
+.room1{
+   color: red;
+}
